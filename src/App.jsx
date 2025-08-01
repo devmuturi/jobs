@@ -1,11 +1,10 @@
-function App() {
+import Navbar from './components/Navbar'
+
+const App = () => {
   return (
-    <>
-      <div className="text-3xl font-bold underline text-blue-900">
-        App
-      </div>
-      <p>Hello Fred</p>
-    </>
+    <div>
+      <Navbar />
+    </div>
   )
 }
 
